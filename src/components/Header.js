@@ -1,10 +1,12 @@
+import s from './Header.module.css';
+console.log(s);
 const Header = () => {
   return (
-    <div className="Header">
-      <ul>
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
+    <div className={s.Header}>
+      <ul className = {s.list}>
+        <li className={s.item}><a href="#">HTML</a></li>
+        <li className={s.item}><a href="#">CSS</a></li>
+        <li className={s.item}><a href="#">JavaScript</a></li>
       </ul>
     </div>
   )

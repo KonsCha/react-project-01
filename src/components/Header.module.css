@@ -1,0 +1,28 @@
+.Header a {
+  text-decoration: none;
+  color: beige;
+}
+
+.item {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.Header {
+  border: rgb(47, 17, 216) solid 1.5px;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 20px;
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614610407_56-p-zadnii-fon-dlya-fotoshopa-90.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  min-height: 370px;
+
+} 
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+}
