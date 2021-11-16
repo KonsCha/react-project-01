@@ -1,8 +1,8 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Logo from './components/Logo';
-import Title from './components/Title';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Logo from './components/Logo/Logo';
+import Title from './components/Title/Title';
 
 
 const App = () => {
