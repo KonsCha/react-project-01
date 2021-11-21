@@ -1,10 +1,10 @@
-import './Title.css';
+import s from'./Title.module.css';
 
 const Title = () => {
   return (
-    <div className="Title">
+    <div className={s.Title}>
       <h1>Simple HTML</h1>
-      <p className="Text">
+      <p className={s.Text}>
           Here is some text to introduce.
       </p>
     </div>

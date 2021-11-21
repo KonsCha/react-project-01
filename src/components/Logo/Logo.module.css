@@ -1,7 +1,9 @@
 .Logo {
   background-color: yellow;
+  display: flex;
+  justify-content: center;
 }
 
-.Logo img {
+.Logo_img {
   width: 120px;
 }
