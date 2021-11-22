@@ -1,22 +1,22 @@
 .Footer {
-  color:brown;
-  border: green solid 20px;
-  border-radius: 6px;
-  padding: 15px;
+    color: brown;
+    border: green solid 20px;
+    border-radius: 6px;
+    padding: 15px;
 }
 
 .list {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .item {
-  text-decoration: none;
-  color: rgb(5, 226, 53);
-  font-weight: 700;
-  list-style-type: none;
+    text-decoration: none;
+    color: rgb(5, 226, 53);
+    font-weight: 700;
+    list-style-type: none;
 }
 
 .active {
-  color: gold;
+    color: gold;
 }

@@ -1,9 +1,9 @@
 .Logo {
-  background-color: yellow;
-  display: flex;
-  justify-content: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
 }
 
-.Logo_img {
-  width: 120px;
+.Logo img {
+    width: 120px;
 }
