@@ -2,9 +2,27 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Logo from './components/Logo/Logo';
-import Title from './components/Title/Title';
+import Dialogs from './components/Dialogs/Dialogs';
 import MyPosts from './components/MyPosts/MyPosts'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+// fetch('https://api.sampleapis.com/countries/countries')
+//     .then(data => data.json())
+//     // .then(data2 => console.log(giveMeLength(data2)))
+//     .then(data => {
+//         let allIndex = data.map((item, index) => index);
+//         some(data, allIndex);
+//     })
+//
+// // const giveMeLength = (data) => data.length;
+//
+// const some = (data, nums) => {
+//     const countries = document.getElementById('root');
+//     countries.innerHTML = nums.map(num => `${data[num].name}`).join('; ');
+//     countries.style.fontSize = '60px';
+//     countries.style.color = 'blue';
+// }
+
 
 const App = () => {
     return (
@@ -13,10 +31,10 @@ const App = () => {
                 <Navbar/>
                 <Logo/>
                 <Routes>
-                    <Route path='/profile' element={<Title/>}/>
-                    <Route path='/dialogs' element={<MyPosts/>}/>
+                    <Route path='/profile' element={<MyPosts/>}/>
+                    <Route path='/dialogs' element={<Dialogs/>}/>
                 </Routes>
-                {/*<Title/>*/}
+                {/*<Dialogs/>*/}
                 {/*<MyPosts/>*/}
                 <Footer/>
             </div>
