@@ -5,8 +5,12 @@ const MyPosts = () => {
     return (
         <div className={s.MyPosts}>
             <div>
-                <textarea></textarea>
-                <button>Add Post</button>
+                <div className={s.textarea}>
+                    <textarea></textarea>
+                </div>
+                <div className={s.buttonIn}>
+                    <button className={s.button}>Add Post</button>
+                </div>
                 <Posts counter='5' message="'Hi everyone'"
                        src='https://miro.medium.com/max/1200/1*BomiWkQi5XB5A4KpQziJpw.jpeg'/>
                 <Posts counter='4' message="'I love cats'"

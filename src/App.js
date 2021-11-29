@@ -32,10 +32,8 @@ const App = () => {
                 <Logo/>
                 <Routes>
                     <Route path='/profile' element={<MyPosts/>}/>
-                    <Route path='/dialogs' element={<Dialogs/>}/>
+                    <Route path='/dialogs/*' element={<Dialogs/>}/>
                 </Routes>
-                {/*<Dialogs/>*/}
-                {/*<MyPosts/>*/}
                 <Footer/>
             </div>
         </BrowserRouter>

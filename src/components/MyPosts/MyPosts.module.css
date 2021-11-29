@@ -1,3 +1,19 @@
 .MyPosts {
     margin-left: 100px;
 }
+
+.textarea {
+    padding: 20px;
+}
+
+.buttonIn {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: gold;
+    border-radius: 90px;
+    color: black;
+    font-weight: bold;
+}
