@@ -4,9 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const DialogsData = [
+    {name:'Alex', id:'1'},
+    {name:'Kazumi', id:'2'},
+    {name:'Luka', id:'3'},
+    {name:'Dimon', id:'4'},
+    {name:'Sasha', id:'5'},
+    {name:'Valera', id:'6'}
+]
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App DialogsData={DialogsData}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

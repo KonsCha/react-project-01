@@ -2,16 +2,12 @@ import s from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
-const Dialogs = () => {
+const Dialogs = (props) => {
+    let DialogItems = props.DialogsData.map(item => <DialogItem name={item.name} id={item.id}/>);
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <DialogItem name='Kons' id='1'/>
-                <DialogItem name='Kazumi' id='2'/>
-                <DialogItem name='Luka' id='3'/>
-                <DialogItem name='Dimon' id='4'/>
-                <DialogItem name='Sasha' id='5'/>
-                <DialogItem name='Valera' id='6'/>
+                {DialogItems}
             </div>
             <div className={s.messages}>
                 <Message message='Hi!'/>
