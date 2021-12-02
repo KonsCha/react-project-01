@@ -23,7 +23,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 //     countries.style.color = 'blue';
 // }
 
-
 const App = (props) => {
     return (
         <BrowserRouter>
@@ -31,13 +30,12 @@ const App = (props) => {
                 <Navbar/>
                 <Logo/>
                 <Routes>
-                    <Route path='/profile' element={<MyPosts/>}/>
-                    <Route path='/dialogs/*' element={<Dialogs DialogsData={props.DialogsData}/>}/>
+                    <Route path='/profile' element={<MyPosts state={props.state}/>}/>
+                    <Route path='/dialogs/*' element={<Dialogs state={props.state}/>}/>
                 </Routes>
                 <Footer/>
             </div>
         </BrowserRouter>
     );
 }
-
 export default App;
