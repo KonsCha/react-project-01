@@ -11,7 +11,7 @@ const Dialogs = (props) => {
 
     let addText = () => {
         let text = newTextElement.current.value;
-        alert(text);
+        props.addPost(text);
     }
     return (
         <div className={s.dialogs}>

@@ -31,7 +31,7 @@ const App = (props) => {
                 <Logo/>
                 <Routes>
                     <Route path='/profile' element={<MyPosts state={props.state}/>}/>
-                    <Route path='/dialogs/*' element={<Dialogs state={props.state}/>}/>
+                    <Route path='/dialogs/*' element={<Dialogs state={props.state} addPost={props.addPost}/>}/>
                 </Routes>
                 <Footer/>
             </div>
